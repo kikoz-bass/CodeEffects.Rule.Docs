@@ -1,0 +1,11 @@
+﻿
+# UI Settings
+
+The appearance of the [Rule Editor](/decision-automation/business-rule-editor) can be further customized by setting the UI-specific properties of the [`CodeEffects.Rule.Editor.Control`](/decision-automation/rule-editor-control) class:
+
+- <b>ShowLineDots</b>. If set to `true`, displays mid-dots at the beginning of each new line inside the rule (you can insert new lines by pressing the `Enter` key; see the [Keyboard](/decision-automation/business-rule-editor-keyboard-gestures-support) topic for keyboard support details). The default value is `false`.
+- <b>ShowMenuOnRightArrowKey</b>. If set to `true`, displays an appropriate context menu every time the rule author moves the selection from one element to another by pressing the `Right Arrow` key while navigating the rule with the Arrow keys. The default value is `true`.
+- <b>ShowMenuOnElementClicked</b>. If set to `true`, displays a context menu with replacement items every time the rule author clicks the selected rule element. This setting is very useful if you want to allow rule authors to edit rules on the fly. The default value is `true`.
+- <b>ShowDescriptionsOnMouseHover</b>. If set to `true`, the rule author can hover the cursor over any rule element to view its description (if the `Description` property of the [`Field`](/decision-automation/rule-common-attributes-field), [`Action`](/decision-automation/rule-common-attributes-action), [`Method`](/decision-automation/rule-common-attributes-method), or [`Parameter`](/decision-automation/rule-common-attributes-parameter) attribute is set for that element). The default value is `true`.
+- <b>ShowToolBar</b>. If set to `true`, displays the [Toolbar](/decision-automation/business-rule-toolbar) at the top of the Rule Editor. The Toolbar is an important UI feature, so make sure to read its topic. The default value is `true`.
+- <b>ShowHelpString</b>. If set to `true`, displays the [Help String](/decision-automation/business-rule-editor). The default value is `true`.
