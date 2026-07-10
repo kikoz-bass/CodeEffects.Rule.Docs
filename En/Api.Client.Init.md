@@ -3,7 +3,7 @@
 
 The [Rule Editor](/decision-automation/business-rule-editor) can be initialized on a web page in one of two ways:
 
-- Server-centric initialization -
+- Server-centric initialization
 - Client-centric initialization
 
 The first approach is intended for applications that frequently change editor settings, such as [source objects](/decision-automation/business-rule-source-object), [UI options](/decision-automation/business-rule-editor-settings), [CSS](/decision-automation/business-rule-settings-and-appearance), [current UI culture](/decision-automation/business-rule-multilingual-support), or other server-generated configuration. Since those settings are already produced on the server, it often makes sense to perform the entire editor initialization there. This initialization method has been available since the first release of the Code Effects platform in 2009 and remains supported for backward compatibility.
